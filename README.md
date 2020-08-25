@@ -5,7 +5,7 @@
 　　配置过程如下：
 1. 在根目录创建进程文件，规定当前进程对象；（eg:.env.govDev(开发配置)，.env.gov(线上配置)）
 2. 在根目录的 projectsConfig.js 文件，规定运行打包配置，配置中用到的入口、模板等文件自行创建；（具体内容查看 projectsConfig.js 文件）
-3. 在 package.json 文件创建 script 脚本命令，包括启动命令和打包命令 (eg:"govDev":"vue-cli-service serve --mode govDev)
+3. 在 package.json 文件创建 script 脚本命令，包括启动命令和打包命令 (eg:"govDev":"vue-cli-service serve --mode govDev")
 
 ## Project setup
 ```
