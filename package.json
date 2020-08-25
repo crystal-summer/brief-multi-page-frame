@@ -5,7 +5,11 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "govDev": "vue-cli-service serve --mode govDev",
+    "gov": "vue-cli-service build --mode gov",
+    "entDev": "vue-cli-service serve --mode entDev",
+    "ent": "vue-cli-service build --mode ent"
   },
   "dependencies": {
     "core-js": "^3.6.5",
